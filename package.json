@@ -21,7 +21,8 @@
     "test": "jest",
     "flow": "flow check",
     "format": "prettier --write 'src/**/*.js'",
-    "prepublishOnly": "run-p flow build"
+    "prepublishOnly": "run-p build",
+    "prepublishOnly-old": "run-p flow build"
   },
   "babel": {
     "presets": [
