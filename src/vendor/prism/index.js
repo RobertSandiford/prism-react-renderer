@@ -8,11 +8,11 @@ import codegen from "codegen.macro";
 codegen`
   const { readFileSync } = require('fs')
   const { dirname, join } = require('path')
-  const { languages } = require('prismjs/components')
+  const { languages } = require('prismjs/components.js')
   const prismPath = dirname(require.resolve('prismjs'))
 
   // This json defines which languages to include
-  const includedLangs = require('./includeLangs')
+  const includedLangs = require('./includeLangs.cjs')
 
   let output = '/* This content is auto-generated to include some prismjs language components: */\\n'
 
