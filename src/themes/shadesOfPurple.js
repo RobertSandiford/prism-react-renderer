@@ -4,7 +4,7 @@
 // Original: https://github.com/ahmadawais/shades-of-purple-vscode/
 // Converted automatically using ./tools/themeFromVsCode and then customized manually.
 
-import type { PrismTheme } from "../types";
+import type { PrismTheme } from "../types.js";
 
 var theme: PrismTheme = {
   plain: {

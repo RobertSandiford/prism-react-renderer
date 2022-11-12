@@ -2,9 +2,9 @@
   "name": "prism-react-renderer",
   "version": "1.3.5",
   "description": "Renders highlighted Prism output using React",
+  "type": "module",
   "sideEffects": false,
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.js",
+  "main": "dist/index.js",
   "types": "index.d.ts",
   "license": "MIT",
   "repository": "https://github.com/FormidableLabs/prism-react-renderer",
@@ -15,8 +15,9 @@
     "themes"
   ],
   "scripts": {
+    "build": "pnpm flow-remove-types src/ -d dist/",
     "prebuild": "patch-package",
-    "build": "rollup -c rollup.config.js",
+    "build-rollup": "rollup -c rollup.config.js",
     "test": "jest",
     "flow": "flow check",
     "format": "prettier --write 'src/**/*.js'",
@@ -44,16 +45,6 @@
       "babel-plugin-macros"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "src/**/*.js": [
-      "prettier --write"
-    ]
-  },
   "peerDependencies": {
     "react": ">=0.14.9"
   },
@@ -77,6 +68,7 @@
     "babel-plugin-macros": "^3.0.1",
     "codegen.macro": "^4.1.0",
     "flow-bin": "0.123.0",
+    "flow-remove-types": "^2.193.0",
     "globby": "^11.0.2",
     "husky": "^4.2.5",
     "jest": "^26.6.3",

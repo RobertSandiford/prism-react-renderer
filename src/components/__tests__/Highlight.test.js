@@ -1,8 +1,8 @@
 import React from "react";
 import { render, cleanup } from "@testing-library/react";
 
-import Highlight from "../Highlight";
-import defaultProps from "../../defaultProps";
+import Highlight from "../Highlight.js";
+import defaultProps from "../../defaultProps.js";
 
 const exampleCode = `
 (function someDemo() {

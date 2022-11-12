@@ -4,7 +4,7 @@
     https://github.com/ocodia/okaidia-prismjs-theme
 */
 
-import type { PrismTheme } from "../types";
+import type { PrismTheme } from "../types.js";
 
 var theme: PrismTheme = {
   plain: {

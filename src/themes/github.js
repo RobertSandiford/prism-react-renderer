@@ -1,7 +1,7 @@
 // @flow
 // Original: https://raw.githubusercontent.com/PrismJS/prism-themes/master/themes/prism-ghcolors.css
 
-import type { PrismTheme } from "../types";
+import type { PrismTheme } from "../types.js";
 
 var theme: PrismTheme = {
   plain: {

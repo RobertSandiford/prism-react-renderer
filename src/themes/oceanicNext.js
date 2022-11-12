@@ -4,7 +4,7 @@
 // https://github.com/voronianski/oceanic-next-color-scheme
 // Adapted from: https://github.com/reactjs/reactjs.org/blob/428d52b/src/prism-styles.js
 
-import type { PrismTheme } from "../types";
+import type { PrismTheme } from "../types.js";
 
 var colors = {
   char: "#D8DEE9",

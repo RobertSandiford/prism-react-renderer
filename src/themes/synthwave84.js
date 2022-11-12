@@ -5,7 +5,7 @@
  * Ported for PrismJS by Marc Backes [@themarcba]: https://github.com/themarcba/prism-themes/blob/master/themes/prism-synthwave84.css
  * Ported for prism-react-renderer by Forrest Akin [@forrest-akin]
  */
-import type { PrismTheme } from "../types";
+import type { PrismTheme } from "../types.js";
 
 var theme: PrismTheme = {
   plain: {
