@@ -5,7 +5,6 @@
   "type": "module",
   "sideEffects": false,
   "main": "dist/index.js",
-  "types": "index.d.ts",
   "license": "MIT",
   "repository": "https://github.com/FormidableLabs/prism-react-renderer",
   "files": [
