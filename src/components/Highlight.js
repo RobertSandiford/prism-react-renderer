@@ -1,6 +1,7 @@
 // @flow
 
-import React, { Component, type Node } from "react";
+import { Component } from "sxy-framework";
+import type { Node } from "react";
 import normalizeTokens from "../utils/normalizeTokens.js";
 import themeToDict, { type ThemeDict } from "../utils/themeToDict.js";
 
