@@ -27,6 +27,21 @@
   "babel": {
     "presets": [
       "@babel/preset-flow",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      [
+        "@babel/plugin-proposal-class-properties",
+        {
+          "loose": true
+        }
+      ],
+      "babel-plugin-macros"
+    ]
+  },
+  "oldBabel": {
+    "presets": [
+      "@babel/preset-flow",
       "@babel/preset-react",
       [
         "@babel/preset-env",

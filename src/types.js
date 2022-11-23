@@ -1,6 +1,7 @@
 // @flow
 
 import type { Key } from "react";
+// $FlowFixMe
 import includedLangs from "./vendor/prism/includeLangs.cjs";
 
 export type Language = $Keys<typeof includedLangs>;
