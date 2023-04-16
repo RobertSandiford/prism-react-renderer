@@ -1,6 +1,6 @@
 {
   "name": "sxy-prism-renderer",
-  "version": "1.4.11",
+  "version": "1.4.12",
   "description": "Renders highlighted Prism output using React",
   "type": "module",
   "sideEffects": false,
